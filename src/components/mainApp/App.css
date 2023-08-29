@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.logo {
+  object-fit: scale-down;
+  width: 100vw;
+  object-position: center;
+  height: 10vh;
+  padding: 0 5%;
+}
+.offerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.offerContainer .item {
+  padding: 0 5%;
+  padding-left: 18%;
+  max-width: 955px;
+}
