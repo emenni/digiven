@@ -22,5 +22,5 @@ interface I18n {
 }
 
 interface Window {
-  consentCheck: () => string;
+  loadConsent: () => void;
 }

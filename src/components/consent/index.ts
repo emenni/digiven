@@ -7,8 +7,8 @@ const language = i18n.consent as Language;
 function consentMessage() {
   const { purecookieDesc, purecookieTitle, purecookieButton, purecookieLink } =
     language[
-      getCookie("optLanguage") ||
-        (navigator.language in language ? navigator.language : "pt-BR")
+    getCookie("optLanguage") ||
+    (navigator.language in language ? navigator.language : "pt-BR")
     ] as ConsentMessage;
 
   if (!getCookie("purecookieDismiss")) {
@@ -33,7 +33,7 @@ window.loadConsent = () => {
     const consentElement = document.createElement("div");
     consentElement.classList.add("consentContainer");
     consentElement.id = "consentContainer";
-    consentElement.innerHTML = consentMessage();
+    consentElement.innerHTML = consentMessage() || "";
     document.body.appendChild(consentElement);
 
     pureFadeIn("consentContainer");
