@@ -1,0 +1,178 @@
+{
+  "consent": {
+    "pt-BR": {
+      "purecookieDesc": "Este site usa cookies para garantir que você obtenha a melhor experiência. Saiba mais em nossa",
+      "purecookieTitle": "Cookie",
+      "purecookieButton": "Permitir Cookie",
+      "purecookieLink": "<a href='https://www.cssscript.com/privacy-policy/' target='_blank'>Politica de Privacidade</a>"
+    },
+    "en-US": {
+      "purecookieDesc": "This site uses cookies to ensure you get the best experience. Learn more in our",
+      "purecookieTitle": "Cookie",
+      "purecookieButton": "Allow Cookie",
+      "purecookieLink": "<a href='https://www.cssscript.com/privacy-policy/' target='_blank'>Privacy Policy</a>"
+    }
+  },
+  "offer": {
+    "pt-BR": [
+      {
+        "id": "1",
+        "type": "service",
+        "name": "Treinamento e Suporte",
+        "description": "Fornecemos treinamento e suporte contínuo para ajudar nossos clientes a gerenciar suas plataformas de comércio eletrônico."
+      },
+      {
+        "id": "2",
+        "type": "service",
+        "name": "Marketing Digital Integrado",
+        "description": "Integramos estratégias de marketing digital, como SEO e mídia social, para aumentar o tráfego e as vendas."
+      },
+      {
+        "id": "3",
+        "type": "service",
+        "name": "Gestão de Conteúdo e Produtos",
+        "description": "Organizamos e gerenciamos catálogos de produtos e conteúdo para melhorar a experiência dos usuários."
+      },
+      {
+        "id": "4",
+        "type": "service",
+        "name": "Desenvolvimento de Aplicativos Móveis",
+        "description": "Criamos aplicativos móveis para melhorar a acessibilidade em dispositivos móveis."
+      },
+      {
+        "id": "5",
+        "type": "service",
+        "name": "Integração de Sistemas",
+        "description": "Conectamos diferentes sistemas para garantir uma operação eficiente."
+      },
+      {
+        "id": "6",
+        "type": "service",
+        "name": "Segurança e Privacidade",
+        "description": "Implementamos medidas de segurança robustas para proteger nossos dados e transações."
+      },
+      {
+        "id": "7",
+        "type": "service",
+        "name": "Design e Desenvolvimento de Plataforma",
+        "description": "Criamos plataformas de comércio eletrônico personalizadas."
+      },
+      {
+        "id": "8",
+        "type": "product",
+        "name": "Módulos de Integração",
+        "description": "Desenvolvemos módulos e plugins para integrar sistemas."
+      },
+      {
+        "id": "9",
+        "type": "product",
+        "name": "Ferramentas de Otimização de Conversões",
+        "description": "Desenvolvemos ferramentas para melhorar suas taxas de conversão."
+      },
+      {
+        "id": "10",
+        "type": "product",
+        "name": "Soluções de Pagamento Seguro",
+        "description": "Oferecemos soluções de pagamento seguras."
+      },
+      {
+        "id": "11",
+        "type": "product",
+        "name": "Themes e Designs Personalizados",
+        "description": "Criamos temas de design personalizados."
+      },
+      {
+        "id": "12",
+        "type": "product",
+        "name": "Aplicativos Móveis para Comércio Eletrônico",
+        "description": "Desenvolvemos aplicativos móveis específicos para comércio eletrônico."
+      },
+      {
+        "id": "13",
+        "type": "product",
+        "name": "Analytics e Relatórios Avançados",
+        "description": "Desenvolvemos ferramentas de análise e relatórios avançados."
+      }
+    ],
+    "en-US": [
+      {
+        "id": "1",
+        "type": "service",
+        "name": "Training and Support",
+        "description": "We provide training and ongoing support to help our clients manage their e-commerce platforms."
+      },
+      {
+        "id": "2",
+        "type": "service",
+        "name": "Integrated Digital Marketing",
+        "description": "We integrate digital marketing strategies like SEO and social media to increase traffic and sales."
+      },
+      {
+        "id": "3",
+        "type": "service",
+        "name": "Content and Product Management",
+        "description": "We organize and manage product catalogs and content to enhance user experience."
+      },
+      {
+        "id": "4",
+        "type": "service",
+        "name": "Mobile App Development",
+        "description": "We create mobile apps to enhance accessibility on mobile devices."
+      },
+      {
+        "id": "5",
+        "type": "service",
+        "name": "System Integration",
+        "description": "We connect different systems to ensure efficient operation."
+      },
+      {
+        "id": "6",
+        "type": "service",
+        "name": "Security and Privacy",
+        "description": "We implement robust security measures to protect our data and transactions."
+      },
+      {
+        "id": "7",
+        "type": "service",
+        "name": "Design and Platform Development",
+        "description": "We create customized e-commerce platforms."
+      },
+      {
+        "id": "8",
+        "type": "product",
+        "name": "Integration Modules",
+        "description": "We develop modules and plugins to integrate systems."
+      },
+      {
+        "id": "9",
+        "type": "product",
+        "name": "Conversion Optimization Tools",
+        "description": "We develop tools to improve your conversion rates."
+      },
+      {
+        "id": "10",
+        "type": "product",
+        "name": "Secure Payment Solutions",
+        "description": "We offer secure payment solutions."
+      },
+      {
+        "id": "11",
+        "type": "product",
+        "name": "Custom Themes and Designs",
+        "description": "We create custom design themes."
+      },
+      {
+        "id": "12",
+        "type": "product",
+        "name": "Mobile Apps for E-commerce",
+        "description": "We develop mobile apps specifically for e-commerce."
+      },
+      {
+        "id": "13",
+        "type": "product",
+        "name": "Advanced Analytics and Reporting",
+        "description": "We develop advanced analytics and reporting tools."
+      }
+    ]
+  }
+}
