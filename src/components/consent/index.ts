@@ -13,7 +13,7 @@ function consentMessage() {
 
   if (!getCookie("purecookieDismiss")) {
     const element = `
-       <div class="cookieTitle"><a>${purecookieTitle}</a></div>
+       <div class="cookieTitle">${purecookieTitle}</div>
        <div class="cookieDesc"><p>${purecookieDesc} ${purecookieLink}</p></div>
        <div class="cookieButton"><a id="purecookieButton">${purecookieButton}</a></div>
        `;

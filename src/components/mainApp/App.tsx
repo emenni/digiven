@@ -29,6 +29,9 @@ function App() {
       position: index + 1,
       name: item.name,
       description: item.description,
+      offers: item.type !== "service"
+        ? { "@type": "Offer", "price": 0, "priceCurrency": "BRL" }
+        : false
     })),
   };
 
