@@ -67,11 +67,8 @@ function App() {
           )) : null}
         </nav>
         <img src={digiVenLogo} className="logo" alt="DigiVen Logo" />
-
-
         < div className="offerContainer" >
-
-          {isClient && offer?.map((item, index) => (
+          {offer?.map((item, index) => (
             <div key={index} className="item">
               <p>
                 <b>{item.name}</b> {item.description}
