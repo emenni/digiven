@@ -24,3 +24,9 @@ interface I18n {
 interface Window {
   loadConsent: () => void;
 }
+
+interface AppProps {
+  language?: Language | "",
+  onClickFunction?: (buttonKey: string) => void | {},
+  offer?: OfferItem[] | []
+};

@@ -1,5 +1,5 @@
-import "./consent/";
-import "./mainApp/main.tsx";
+import "./consent/index.ts";
+import "./clientRenderer";
 // ...import other modules if needed
 
-export {};
+export { };
