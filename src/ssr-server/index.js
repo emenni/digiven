@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import renderApp from "../../dist/server/index.js";
+import { render } from "../../dist/server/index.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -22,7 +22,7 @@ app.use(
 );
 app.use((req, res) => {
   res.write(parts[0]);
-  const stream = renderApp(req.url, {
+  const stream = render(req.url, {
     onShellReady() {
       stream.pipe(res);
     },
