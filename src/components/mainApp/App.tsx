@@ -12,7 +12,7 @@ function App() {
 
   const isClient = !import.meta.env.SSR
 
-  let jsonLdData
+  const [effectTriggered, setEffectTriggered] = useState(false);
 
   useEffect(() => {
 
@@ -24,25 +24,12 @@ function App() {
       );
     }
 
-    // JSON-LD data for structured data
-    jsonLdData = isClient ? {
-      "@context": "http://schema.org",
-      "@type": "ItemList",
-      itemListElement: offer?.map((item, index) => ({
-        "@type": item.type === "service" ? "Service" : "Product",
-        position: index + 1,
-        name: item.name,
-        description: item.description,
-        offers: item.type !== "service"
-          ? { "@type": "Offer", "price": 0, "priceCurrency": "BRL" }
-          : null
-      })),
-    } : null;
+    setEffectTriggered(true);
+
   }, [])
 
   const optLanguage = isClient ? getCookie("optLanguage") || "pt-BR" : "pt-BR";
   const [offer, setOffer] = useState<OfferItem[] | []>(language[optLanguage] as OfferItem[]);
-
 
 
   const handleButtonClick = (buttonKey: string) => {
@@ -50,6 +37,21 @@ function App() {
     setCookie("optLanguage", buttonKey, 7);
     window.loadConsent();
 
+  };
+
+  // JSON-LD data for structured data
+  const jsonLdData = {
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    itemListElement: offer?.map((item, index) => ({
+      "@type": item.type === "service" ? "Service" : "Product",
+      position: index + 1,
+      name: item.name,
+      description: item.description,
+      offers: item.type !== "service"
+        ? { "@type": "Offer", "price": 0, "priceCurrency": "BRL" }
+        : null
+    })),
   };
 
   return (
@@ -67,22 +69,24 @@ function App() {
           )) : null}
         </nav>
         <img src={digiVenLogo} className="logo" alt="DigiVen Logo" />
-        < div className="offerContainer" >
-          {offer?.map((item, index) => (
-            <div key={index} className="item">
-              <p>
-                <b>{item.name}</b> {item.description}
-              </p>
+        <div>
+          {effectTriggered && (
+            <div>
+              <div className="offerContainer">
+                {offer?.map((item, index) => (
+                  <div key={index} className="item">
+                    <p>
+                      <b>{item.name}</b> {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <script type="application/ld+json">
+                {JSON.stringify(jsonLdData, null, 2)}
+              </script>
             </div>
-          ))}
+          )}
         </div>
-
-
-        {jsonLdData &&
-          <script type="application/ld+json">
-            {JSON.stringify(jsonLdData, null, 2)}
-          </script>
-        }
       </div >
     </>
   );
