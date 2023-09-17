@@ -31,9 +31,7 @@
     "src/**/*"
   ],
   "exclude": [
-    "node_modules",
-    "**/*.spec.ts",
-    "/src/ssr-server"
+    "node_modules"
   ],
   "references": [
     {
