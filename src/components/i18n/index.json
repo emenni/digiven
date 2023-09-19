@@ -61,37 +61,43 @@
         "id": "8",
         "type": "product",
         "name": "Módulos de Integração",
-        "description": "Desenvolvemos módulos e plugins para integrar sistemas."
+        "description": "Desenvolvemos módulos e plugins para integrar sistemas.",
+        "image": "modulos-para-integracao.webp"
       },
       {
         "id": "9",
         "type": "product",
         "name": "Ferramentas de Otimização de Conversões",
-        "description": "Desenvolvemos ferramentas para melhorar suas taxas de conversão."
+        "description": "Desenvolvemos ferramentas para melhorar suas taxas de conversão.",
+        "image": "ferramentas-de-otimizacao-de-conversao.webp"
       },
       {
         "id": "10",
         "type": "product",
         "name": "Soluções de Pagamento Seguro",
-        "description": "Oferecemos soluções de pagamento seguras."
+        "description": "Oferecemos soluções de pagamento seguras.",
+        "image": "solucoes-de-pagamento-seguro.webp"
       },
       {
         "id": "11",
         "type": "product",
         "name": "Themes e Designs Personalizados",
-        "description": "Criamos temas de design personalizados."
+        "description": "Criamos temas de design personalizados.",
+        "image": "themas-e-design-personalizados.webp"
       },
       {
         "id": "12",
         "type": "product",
         "name": "Aplicativos Móveis para Comércio Eletrônico",
-        "description": "Desenvolvemos aplicativos móveis específicos para comércio eletrônico."
+        "description": "Desenvolvemos aplicativos móveis específicos para comércio eletrônico.",
+        "image": "aplicativos-moveis-para-comercio-eletronico.webp"
       },
       {
         "id": "13",
         "type": "product",
         "name": "Analytics e Relatórios Avançados",
-        "description": "Desenvolvemos ferramentas de análise e relatórios avançados."
+        "description": "Desenvolvemos ferramentas de análise e relatórios avançados.",
+        "image": "analytics-e-relatorios-avancados.webp"
       }
     ],
     "en-US": [
@@ -141,37 +147,43 @@
         "id": "8",
         "type": "product",
         "name": "Integration Modules",
-        "description": "We develop modules and plugins to integrate systems."
+        "description": "We develop modules and plugins to integrate systems.",
+        "image": "modulos-para-integracao.webp"
       },
       {
         "id": "9",
         "type": "product",
         "name": "Conversion Optimization Tools",
-        "description": "We develop tools to improve your conversion rates."
+        "description": "We develop tools to improve your conversion rates.",
+        "image": "ferramentas-de-otimizacao-de-conversao.webp"
       },
       {
         "id": "10",
         "type": "product",
         "name": "Secure Payment Solutions",
-        "description": "We offer secure payment solutions."
+        "description": "We offer secure payment solutions.",
+        "image": "solucoes-de-pagamento-seguro.webp"
       },
       {
         "id": "11",
         "type": "product",
         "name": "Custom Themes and Designs",
-        "description": "We create custom design themes."
+        "description": "We create custom design themes.",
+        "image": "themas-e-design-personalizados.webp"
       },
       {
         "id": "12",
         "type": "product",
         "name": "Mobile Apps for E-commerce",
-        "description": "We develop mobile apps specifically for e-commerce."
+        "description": "We develop mobile apps specifically for e-commerce.",
+        "image": "aplicativos-moveis-para-comercio-eletronico.webp"
       },
       {
         "id": "13",
         "type": "product",
         "name": "Advanced Analytics and Reporting",
-        "description": "We develop advanced analytics and reporting tools."
+        "description": "We develop advanced analytics and reporting tools.",
+        "image": "analytcs-e-relatorios-avancados.webp"
       }
     ]
   }

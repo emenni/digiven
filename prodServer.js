@@ -54,11 +54,7 @@ app.use(
 );
 
 app.use((req, res, next) => {
-  // let cspHeader = res.getHeader("Content-Security-Policy").toString() || "";
-  // cspHeader += " script-src-attr 'unsafe-inline'";
-
   res.setHeader("content-type", "text/html");
-  // res.setHeader("Content-Security-Policy", cspHeader);
 
   res.write(parts[0]);
   const stream = render(req.url, {

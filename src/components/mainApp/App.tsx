@@ -42,55 +42,66 @@ function App() {
   };
 
   // JSON-LD data for structured data
+
   const jsonLdData = {
     "@context": "http://schema.org",
     "@type": "ItemList",
-    itemListElement: offer?.map((item, index) => ({
-      "@type": item.type === "service" ? "Service" : "Product",
-      position: index + 1,
-      name: item.name,
-      description: item.description,
-      offers: item.type !== "service"
-        ? { "@type": "Offer", "price": 0, "priceCurrency": "BRL" }
-        : null
-    })),
+    itemListElement: (offer || []).map((item, index) => {
+      const itemProperties: JSONLDProperties = {
+        "@type": item.type === "service" ? "Service" : "Product",
+        position: index + 1,
+        name: item.name,
+        description: item.description
+      };
+
+      // Add image if it's defined
+      if (item.image) {
+        itemProperties.image = "https://www.digiven.com.br/static/" + item.image;
+      }
+
+      // Add offers if it's not a service
+      if (item.type !== "service") {
+        itemProperties.offers = { "@type": "Offer", "price": 0, "priceCurrency": "BRL" };
+      }
+
+      return itemProperties;
+    }),
   };
 
+
   return (
-    <>
-      <div className="mainContainer">
-        <nav className="navbar">
-          {language ? Object.keys(language).map((item, index) => (
-            <button
-              key={index}
-              className="i18n-button"
-              onClick={() => isClient ? handleButtonClick(item) : {}}
-            >
-              {item}
-            </button>
-          )) : null}
-        </nav>
-        <img src={digiVenLogo} className="logo" alt="DigiVen Logo" />
-        <div>
-          {effectTriggered && (
-            <div>
-              <div className="offerContainer">
-                {offer?.map((item, index) => (
-                  <div key={index} className="item">
-                    <p>
-                      <b>{item.name}</b> {item.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-              <script type="application/ld+json">
-                {JSON.stringify(jsonLdData, null, 2)}
-              </script>
+    <div className="mainContainer">
+      <nav className="navbar">
+        {language ? Object.keys(language).map((item, index) => (
+          <button
+            key={index}
+            className="i18n-button"
+            onClick={() => isClient ? handleButtonClick(item) : {}}
+          >
+            {item}
+          </button>
+        )) : null}
+      </nav>
+      <img src={digiVenLogo} className="logo" alt="DigiVen Logo" />
+      <div>
+        {effectTriggered && (
+          <>
+            <div className="offerContainer">
+              {offer?.map((item, index) => (
+                <div key={index} className="item">
+                  <p>
+                    <b>{item.name}</b> {item.description}
+                  </p>
+                </div>
+              ))}
             </div>
-          )}
-        </div>
-      </div >
-    </>
+            <script type="application/ld+json">
+              {JSON.stringify(jsonLdData, null, 2)}
+            </script>
+          </>
+        )}
+      </div>
+    </div >
   );
 
 }

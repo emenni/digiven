@@ -3,6 +3,7 @@ interface OfferItem {
   type: "service" | "product";
   name: string;
   description: string;
+  image: string
 }
 
 interface ConsentMessage {
@@ -30,3 +31,12 @@ interface AppProps {
   onClickFunction?: (buttonKey: string) => void | {},
   offer?: OfferItem[] | []
 };
+
+interface JSONLDProperties {
+  "@type": string;
+  position: number;
+  name: string;
+  description: string;
+  image?: string;  // Make image property optional
+  offers?: { "@type": string; "price": number; "priceCurrency": string } | null;
+}
