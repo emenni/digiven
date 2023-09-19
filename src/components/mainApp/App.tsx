@@ -1,9 +1,11 @@
 import "../consent/index.css";
-import digiVenLogo from "../../assets/digiven-logo-400x80.png";
+import digiVenLogo from "../../assets/digiven-logo-400x80.webp";
 import "./App.css";
 import { setCookie, getCookie } from "../cookieUtils";
 import i18n from "../i18n/index.json";
 import { useEffect, useState } from "react";
+
+
 
 function App() {
 

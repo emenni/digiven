@@ -12,8 +12,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 
-  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+
+  <!-- <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> -->
+
+  <link id="fontStylesheet" rel="stylesheet" media="print"
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+  <script>
+    // Function to handle the load event and remove media attribute
+    function handleStylesheetLoad() {
+      const stylesheet = document.getElementById('fontStylesheet');
+      stylesheet.onload = null; // Remove onload event to avoid multiple calls
+      stylesheet.removeAttribute('media');
+    }
+
+    // Get the stylesheet element and add a load event listener
+    const fontStylesheet = document.getElementById('fontStylesheet');
+    fontStylesheet.onload = handleStylesheetLoad;
+  </script>
+
+
+
+
 
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
