@@ -186,5 +186,145 @@
         "image": "analytcs-e-relatorios-avancados.webp"
       }
     ]
+  },
+  "privacyPolicy": {
+    "pt-BR": {
+      "title": "Política de Privacidade",
+      "sections": [
+        {
+          "title": "Introdução",
+          "content": [
+            "Bem-vindo(a) à nossa Política de Privacidade.",
+            "Esta política descreve como coletamos, usamos e protegemos informações quando você visita nosso site."
+          ]
+        },
+        {
+          "title": "Coleta de Dados",
+          "subsections": [
+            {
+              "title": "Dados Pessoais",
+              "content": [
+                "Coletamos informações pessoais identificáveis, como nome e e-mail, apenas quando você nos fornece voluntariamente através de formulários de contato ou inscrições."
+              ]
+            },
+            {
+              "title": "Dados Automáticos",
+              "content": [
+                "Utilizamos o Google Analytics 4, uma ferramenta de análise da web fornecida pelo Google, para coletar informações anônimas sobre o seu comportamento de navegação no site. Isso inclui dados sobre páginas visitadas, tempo de permanência no site, localização geográfica, entre outros. O Google Analytics 4 utiliza cookies para realizar essa análise."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Uso dos Dados",
+          "content": [
+            "Utilizamos diferentes tipos de cookies com diversas finalidades:",
+            "- Cookies de Desempenho: Coletam informações sobre como os visitantes utilizam o site, para melhorar sua performance e funcionalidade.",
+            "- Cookies de Funcionalidade: Lembram as escolhas feitas pelos usuários para proporcionar uma experiência mais personalizada.",
+            "- Cookies de Publicidade: Rastreiam a atividade de navegação para exibir anúncios relevantes aos interesses dos usuários.",
+            "- Cookies de Análise: Coletam dados estatísticos sobre a interação dos usuários para otimizar a experiência do usuário."
+          ]
+        },
+        {
+          "title": "Compartilhamento de Dados",
+          "content": [
+            "Compartilhamos informações coletadas, incluindo dados pessoais, com terceiros, como o Google, para análise dos dados e melhoria de nossos serviços. Esses terceiros estão sujeitos a políticas de privacidade e práticas de segurança adequadas."
+          ]
+        },
+        {
+          "title": "Armazenamento e Segurança",
+          "content": [
+            "Armazenamos os dados em servidores seguros e adotamos medidas de segurança apropriadas para proteger as informações contra acesso não autorizado ou alteração."
+          ]
+        },
+        {
+          "title": "Seus Direitos",
+          "content": [
+            "Você tem o direito de acessar, retificar ou excluir seus dados pessoais. Se desejar exercer esses direitos ou tiver alguma dúvida sobre nossa Política de Privacidade, entre em contato conosco."
+          ]
+        },
+        {
+          "title": "Atualizações da Política de Privacidade",
+          "content": [
+            "Reservamo-nos o direito de atualizar esta Política de Privacidade a qualquer momento. As alterações serão efetivas assim que forem publicadas em nosso site."
+          ]
+        },
+        {
+          "title": "Contato",
+          "content": [
+            "Para mais informações sobre nossa Política de Privacidade, entre em contato conosco através do e-mail [seuemail@dominio.com]."
+          ]
+        }
+      ]
+    },
+    "en-US": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": [
+            "Welcome to our Privacy Policy.",
+            "This policy describes how we collect, use, and protect information when you visit our website."
+          ]
+        },
+        {
+          "title": "Data Collection",
+          "subsections": [
+            {
+              "title": "Personal Data",
+              "content": [
+                "We collect personally identifiable information, such as name and email, only when you voluntarily provide it to us through contact forms or subscriptions."
+              ]
+            },
+            {
+              "title": "Automatic Data",
+              "content": [
+                "We use Google Analytics 4, a web analysis tool provided by Google, to collect anonymous information about your browsing behavior on the site. This includes data about pages visited, time spent on the site, geographical location, among others. Google Analytics 4 uses cookies to perform this analysis."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Data Usage",
+          "content": [
+            "We use different types of cookies for various purposes:",
+            "- Performance Cookies: Collect information on how visitors use the website to enhance its performance and functionality.",
+            "- Functionality Cookies: Remember user choices to provide a more personalized experience.",
+            "- Advertising Cookies: Track browsing activity to display ads relevant to users' interests.",
+            "- Analytics Cookies: Collect statistical data on user interactions to optimize the user experience."
+          ]
+        },
+        {
+          "title": "Data Sharing",
+          "content": [
+            "We share collected information, including personal data, with third parties such as Google for data analysis and improvement of our services. These third parties are subject to appropriate privacy policies and security practices."
+          ]
+        },
+        {
+          "title": "Storage and Security",
+          "content": [
+            "We store data on secure servers and implement appropriate security measures to protect the information against unauthorized access or alteration."
+          ]
+        },
+        {
+          "title": "Your Rights",
+          "content": [
+            "You have the right to access, rectify, or delete your personal data. If you wish to exercise these rights or have any questions about our Privacy Policy, please contact us."
+          ]
+        },
+        {
+          "title": "Privacy Policy Updates",
+          "content": [
+            "We reserve the right to update this Privacy Policy at any time. The changes will be effective as soon as they are published on our website."
+          ]
+        },
+        {
+          "title": "Contact",
+          "content": [
+            "For more information about our Privacy Policy, please contact us via email at [youremail@domain.com]."
+          ]
+        }
+      ]
+    }
   }
 }

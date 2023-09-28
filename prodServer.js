@@ -24,10 +24,14 @@ app.use(
       directives: {
         defaultSrc: ["'self'"],
         styleSrc: [
+          "'sha256-xWGOGGMGQQ+IV0Om4xzgbDHXUh/+L1c375p0Pb6vF9A='",
+          "'sha256-9HGruJg4WccHXas5I1NmLn7tI1TDh6N26o6+/dy8sm4='",
+          "'sha256-oM0kKtU+nugIwjuYHkXXVoKGVNhC/DCUnIVdSVBMkaQ='",
           "'self'",
           "*.digiven.com.br",
           "https://fonts.gstatic.com", // Google Fonts.
           "https://fonts.googleapis.com",
+          "*.googletagmanager.com",
         ],
         fontSrc: [
           "https://fonts.gstatic.com", // Google Fonts.
@@ -36,12 +40,19 @@ app.use(
         scriptSrc: [
           "'self'", // Default policy for specifiying valid sources for fonts loaded using "@font-face": allow all content coming from origin (without subdomains).
           "'sha256-BWquNnQWVe3EInFog1hCP/nLb+4we1OJQ/tt7xbBDmM='",
+          "'sha256-Jn0I4txezjIOaW1HEFk/Fp1FnrAJ0TBoiiFNAvyDYpY='",
           "*.digiven.com.br",
           "https://fonts.gstatic.com", // Google Fonts.
           "https://fonts.googleapis.com", // Google Fonts.
+          "*.googletagmanager.com",
+        ],
+        connectSrc: [
+          "*.google-analytics.com",
+          "*.google.com.br",
+          "*.google.com",
         ],
         objectSrc: ["'none'"],
-        imgSrc: ["data:"],
+        imgSrc: ["data:", "*.googletagmanager.com", "*.gstatic.com"],
         upgradeInsecureRequests: [],
       },
     },
