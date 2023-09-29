@@ -16,7 +16,7 @@ Thru this project, I achieve some nice skills:
 - React SSR (using hydration)
 - React and non-React content mixing
 - JSON-LD content consideration (SEO purpose)
-- Web IDE usage (codesandbox.io)
+- Web IDE usage (codesandbox.io) with local integration using github
 - Usage of Chrome Lighthouse DevTool for measure and improve the website
 - i18n: ptBr and enUS, but ready for ease including new languages on a json
   file.
