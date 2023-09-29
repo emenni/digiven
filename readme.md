@@ -12,7 +12,6 @@ Thru this project, I achieve some nice skills:
   Analytics). I also achieved a google analytics certification
 - cookies management over LGPD(Brazilian data privacy law)
 - setting contentSecurityPolicy with helmet.js
-- GCP CLI deploy
 - Vite (dev server and build)
 - React SSR (using hydration)
 - React and non-React content mixing
