@@ -31,8 +31,10 @@ Next Goals:
 - Make use of a SSR framework, Next or Remix
 
 Images:
-![image](https://github.com/emenni/digiven/assets/31324812/32940b20-cb9c-45ab-840c-d8a5c79e03c5)
-![image](https://github.com/emenni/digiven/assets/31324812/70ed220d-58e7-43cb-b517-9ffca7b88037)
-![image](https://github.com/emenni/digiven/assets/31324812/a78098d3-bf5b-440d-a078-4ad6d2480fa0)
+- ![image](https://github.com/emenni/digiven/assets/31324812/32940b20-cb9c-45ab-840c-d8a5c79e03c5)
+
+- ![image](https://github.com/emenni/digiven/assets/31324812/70ed220d-58e7-43cb-b517-9ffca7b88037)
+
+- ![image](https://github.com/emenni/digiven/assets/31324812/a78098d3-bf5b-440d-a078-4ad6d2480fa0)
 
 
